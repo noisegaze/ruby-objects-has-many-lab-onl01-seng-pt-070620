@@ -20,7 +20,7 @@ class Post
   end   
   
   def author_name(name = nil)
-    @author.name
+    name =@author.name
   end  
     
   
