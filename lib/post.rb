@@ -20,7 +20,6 @@ class Post
   end   
   
   def author_name
-    binding.pry 
    if self.author 
      author.name
     else 
