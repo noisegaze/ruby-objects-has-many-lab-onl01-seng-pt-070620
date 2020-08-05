@@ -21,8 +21,7 @@ class Post
   
   def author_name
     binding.pry 
-   if self.author == Author.name 
-     @author 
+   if self.author 
     else 
       nil 
     end
