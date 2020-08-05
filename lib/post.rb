@@ -20,7 +20,9 @@ class Post
   end   
   
   def author_name
-    name
+    if self.name == @author 
+      @author
+    end
   end  
     
   
