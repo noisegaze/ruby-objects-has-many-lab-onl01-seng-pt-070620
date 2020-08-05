@@ -20,7 +20,7 @@ class Post
   end   
   
   def author_name
-   if self.author == Artist.name 
+   if self.author == Author.name 
      @author 
     else 
       nil 
