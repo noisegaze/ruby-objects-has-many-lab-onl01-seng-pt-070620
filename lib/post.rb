@@ -20,7 +20,8 @@ class Post
   end   
   
   def author_name
-   
+   if @@all.include? @author 
+     @author
     else 
       nil 
     end
