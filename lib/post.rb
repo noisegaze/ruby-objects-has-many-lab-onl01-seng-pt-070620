@@ -20,7 +20,7 @@ class Post
   end   
   
   def author_name
-   if @title.include? @author 
+   if self.include? @author 
      @author 
     else 
       nil 
