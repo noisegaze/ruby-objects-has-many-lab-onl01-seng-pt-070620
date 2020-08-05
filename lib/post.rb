@@ -20,8 +20,7 @@ class Post
   end   
   
   def author_name
-    if post.name == @author.name
-      @author
+   
     else 
       nil 
     end
