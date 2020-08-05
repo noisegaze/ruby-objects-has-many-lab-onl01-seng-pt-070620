@@ -22,7 +22,7 @@ class Post
   def author_name
     binding.pry 
    if self.author 
-     self.name
+     author.name
     else 
       nil 
     end
