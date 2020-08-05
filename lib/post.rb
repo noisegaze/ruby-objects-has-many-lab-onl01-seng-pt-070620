@@ -11,7 +11,8 @@ class Post
     @author = author
   end 
   
-  def 
+  def save 
+    @@all << 
   end  
   
   
