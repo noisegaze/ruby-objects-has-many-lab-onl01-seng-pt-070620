@@ -19,8 +19,8 @@ class Post
     @@all
   end   
   
-  def author_name(name=nil)
-   name = @author.name
+  def author_name
+    @author.name
   end  
     
   
