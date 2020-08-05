@@ -21,7 +21,7 @@ class Post
   
   def author_name
    if post.include? @author 
-     @author 
+     author.name 
     else 
       nil 
     end
