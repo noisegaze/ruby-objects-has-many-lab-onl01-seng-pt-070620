@@ -15,7 +15,7 @@ class Post
     @@all << self 
   end  
   
-  
+  def 
   
   
   
