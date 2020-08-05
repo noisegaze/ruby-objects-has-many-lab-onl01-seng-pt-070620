@@ -20,8 +20,8 @@ class Post
   end   
   
   def author_name
-   if @@all.each {|post| post.include? @author} 
-     post.author
+   if @title.include? @author 
+     @author 
     else 
       nil 
     end
