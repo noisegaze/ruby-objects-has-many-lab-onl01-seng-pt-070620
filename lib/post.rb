@@ -22,6 +22,8 @@ class Post
   def author_name
     if self.name == @author 
       @author
+    else 
+      nil
     end
   end  
     
